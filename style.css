@@ -1,0 +1,67 @@
+body {
+    margin: 0%;
+}
+div {
+    width: 40%;
+    margin: 3%;
+    padding: 1%;
+    float: left;
+}
+.i1 {
+    width: 100%;
+    position: relative;
+    left: 30px;
+    bottom: 30px;
+}
+section {
+    height: 500px;
+}
+span {
+    color: tomato;
+}
+.top-banner {
+    background-image: url("img/top-banner.png");
+    background-repeat: no-repeat;
+}
+.link-button {
+    text-decoration: none;
+    background-image: linear-gradient(45deg, black, tomato);
+    color: white;
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 30px;
+}
+.i2 {
+    width: 100%;
+    position: relative;
+    bottom: 80px;
+}
+.dream-big {
+    background-image: url("img/dream-bg.png");
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.sx {
+    box-shadow:10px 10px 40px gray;
+    border-radius: 10px;
+    background-color: white;
+}
+.experience-area {
+    background-image:url("img/exp-bg.png");
+    background-repeat: no-repeat;
+    background-position:left;
+    background-size: 6%;
+}
+#fs {
+    border-left: 7px solid tomato;
+    border-image: linear-gradient(180deg, black rgb(193, 224, 15));
+    border-image-slice: 1;
+}
+#bw {
+    border-left: 7px solid teal;
+    border-image: linear-gradient(180deg, blue, cyan);
+    border-image-slice: 1;
+}
+footer p {
+    text-align: center;
+}
